@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(227, 201, 167);
+}
+
+header {
+    background-image: url(./christmas-wallpaper-2009590_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+
+
+}
+
+#container {
+    color: whitesmoke;
+    font-size: large;
+    font-family: Arial;
+    padding-left: 400px;
+    padding-top: 50px;
+}
+
+#dish {
+    padding-top: 20px;
+    padding-left: 70px;
+
+
+}
+
+/* navbar section styling start here */
+#nav {
+
+    background-color: rgb(35, 8, 8);
+
+    padding: 20px 0 40px 0;
+
+
+
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+
+}
+
+#nav ul li {
+    list-style: none;
+    align-items: center;
+
+}
+
+#nav ul li a {
+    color: whitesmoke;
+    font-size: large;
+}
+
+/* navbar styling ends here */
+/* section styling starts here */
+.card-container{
+    background-color: white;
+    height: 1140px;
+    margin: 10px 20px 50px 20px;
+    border: none;
+    box-shadow: 4px 8px 4px 7px white;
+   
+    
+}
+#day{
+    margin: 29px 0 9px 30px;
+    padding-top: 19px;
+ font-weight: bold;
+}
+.card{
+    margin: 29px 30px 8px 30px ;
+    border: 1px solid grey;
+    height: 150px;
+    
+   
+
+}
+#head{
+    margin: 20px 0px 15px 20px;
+
+    font-weight: bold;
+}
+#cont{
+    margin: 20px 0px 10px 20px;
+
+}
+#price{
+      margin: 20px 0px 10px 20px;
+
+}
+#line{
+    margin: 10px 20px 8px 30px;
+    font-size: large;
+}
+#email{
+    margin: 20px 0 2px 30px;
+}
+#phone{
+    margin: 20px 0 2px 30px;
+
+}
